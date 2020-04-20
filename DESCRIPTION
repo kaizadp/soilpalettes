@@ -1,0 +1,9 @@
+Package: soilpalettes
+Type: Package
+Title: A Soil Color Palette Package
+Author: Kaizad F. Patel
+Description: This package contains color palettes inspired by soil profiles
+Encoding: UTF-8
+LazyData: true
+Suggests: ggplot2
+URL: https://github.com/kaizadp/soilpalettes
