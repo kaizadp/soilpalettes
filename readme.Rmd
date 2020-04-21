@@ -4,14 +4,36 @@ author: "Kaizad Patel"
 output: github_document
 ---
 
+```{r echo=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  echo=FALSE,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE,
+  comment = "#>",
+  fig.height = 1
+)
+```
 
-This package contains color palettes for RStudio, inspired by soil profiles.
+This package contains color palettes for RStudio, inspired by soil profiles.  
+Palettes created using [Coolors](https://coolors.co). 
+
+### alaquod  
+Aeric Alaquod, NC.   
+*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
+
+![alaquod](images/1200x900-aeric-alaquod.jpg) ![alaquod2](images/alaq2.png) 
+
 
 ```{r echo = FALSE}
 library(soilpalettes)
+
 soil_palette(name="durorthod",n=5,type = "discrete")
 soil_palette(name="paleustalf",n=7,type = "discrete")
 soil_palette(name="natrudoll",n=7,type = "discrete")
 soil_palette(name="alaquod2",n=7,type = "continuous")
+
+
 ```
 
