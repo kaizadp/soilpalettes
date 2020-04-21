@@ -42,7 +42,7 @@ soil_palettes <- list(
 #' @examples
 #' soil_palette("durorthod",n=100,type="continuous")
 #' soil_palette("durorthod",3)
-#' soil_palette("durorthod, 50)
+#' soil_palette("durorthod", 50)
 soil_palette <- function(name, n, type = c("discrete", "continuous")) {
 
   pal <- soil_palettes[[name]]
@@ -77,10 +77,14 @@ soil_palette <- function(name, n, type = c("discrete", "continuous")) {
 }
 
 
-
-
-# 3. Palette Print Function
-#::::::::::::::::::::::::::::::::::::::::
+#' Palette Print Function
+#'
+#' @param x something
+#' @param ... something
+#' @importFrom graphics image par text
+#' @importFrom stats median
+#' @return
+#' @export
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))

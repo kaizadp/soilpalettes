@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+
+images/
+readme_files/
+readme.Rmd
