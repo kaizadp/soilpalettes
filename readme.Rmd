@@ -8,7 +8,7 @@ output: github_document
 This package contains color palettes for RStudio, inspired by soil profiles.
 
 ```{r echo = FALSE}
-source("R/soilpalettes.R")
+library(soilpalettes)
 soil_palette(name="durorthod",n=5,type = "discrete")
 soil_palette(name="paleustalf",n=7,type = "discrete")
 soil_palette(name="natrudoll",n=7,type = "discrete")
