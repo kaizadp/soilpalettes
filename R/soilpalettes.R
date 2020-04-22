@@ -90,7 +90,8 @@ print.palette <- function(x, ...) {
 
   image(1:n, 1, as.matrix(1:n), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
-
+  
+  rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
   text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 1, family = "sans")
 }
 
