@@ -1,6 +1,5 @@
 ---
 title: "soilpalettes"
-author: "Kaizad Patel"  
 output: github_document
 ---
 
@@ -17,39 +16,33 @@ knitr::opts_chunk$set(
 ```
 
 This package contains color palettes for RStudio, inspired by soil profiles.  
-Palettes created using [Coolors](https://coolors.co). 
+Palettes are colorblind-friendly and were created using [Chroma.js](https://gka.github.io/palettes/) and [Coolors](https://coolors.co).  
+
+Source images and color hex values can be found here. 
 
 ----
+
+### install package
+
+```{r echo = TRUE}
+# install.packages("devtools") 
+# devtools::install_github("kaizadp/soilpalettes")
+```
+
 
 ### Palettes
-
-
-**alaquod** Aeric Alaquod, NC.   
-*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
-![alaquod](images/1200x900-aeric-alaquod.jpg) ![alaquod2](images/alaq2.png) 
-
-**durorthod** Typic Durorthod  
-*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
-![durorthod](images/1200x900-typic-durorthod.jpg) ![alaquod2](images/durorth2.png) 
-
-**paleustalf** Udic Paleustalf  
-*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
-![paleustalf](images/1200x900-udic-paleustalf.jpg) ![alaquod2](images/ustalf.png) 
-
-
-
-----
-
-### building palettes
-
+#### soil orders and suborders
 ```{r echo = FALSE}
 library(soilpalettes)
 
-soil_palette(name="durorthod",n=5,type = "discrete")
-soil_palette(name="paleustalf",n=7,type = "discrete")
-soil_palette(name="natrudoll",n=7,type = "discrete")
-soil_palette(name="alaquod2",n=7,type = "continuous")
-
+soil_palette(name="alaquod")
+soil_palette(name="durorthod")
+soil_palette(name="paleustalf")
+soil_palette(name="rendoll")
 
 ```
 
+#### soil series
+```{r echo = FALSE}
+soil_palette(name="bangor")
+```
