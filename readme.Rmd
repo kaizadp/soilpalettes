@@ -24,10 +24,12 @@ Source images and color hex values can be found here.
 
 ### install package
 
-```{r echo = TRUE}
+```{r echo = TRUE, message=FALSE,warning=FALSE}
 # install.packages("devtools") 
-# devtools::install_github("kaizadp/soilpalettes")
+devtools::install_github("kaizadp/soilpalettes")
 ```
+
+----
 
 
 ### Palettes
@@ -46,3 +48,29 @@ soil_palette(name="rendoll")
 ```{r echo = FALSE}
 soil_palette(name="bangor")
 ```
+
+----
+
+### Usage
+
+```{r, fig.height=5, echo=TRUE}
+library(ggplot2)
+
+ggplot(data=iris, aes(x=Sepal.Width, fill = Species))+
+  geom_histogram(binwidth=0.2, color="black") + 
+  xlab("Sepal Width") +  ylab("Frequency") + 
+  ggtitle("Histogram of Sepal Width") + theme_bw()+
+  
+  scale_fill_manual(values = soil_palette("rendoll",3))
+```
+
+```{r, fig.height=5, echo=TRUE}
+ggplot(data=iris, aes(x=Sepal.Width, fill=Species)) + 
+  geom_density(stat="density", alpha=(0.5)) +
+  xlab("Sepal Width") +  ylab("Density") + 
+  ggtitle("Histogram & Density Curve of Sepal Width") + theme_bw()+
+  
+  scale_fill_manual(values = soil_palette("paleustalf",3))
+
+```
+

@@ -15,8 +15,10 @@ Source images and color hex values can be found here.
 
 ``` r
 # install.packages("devtools") 
-# devtools::install_github("kaizadp/soilpalettes")
+devtools::install_github("kaizadp/soilpalettes")
 ```
+
+-----
 
 ### Palettes
 
@@ -27,3 +29,31 @@ Source images and color hex values can be found here.
 #### soil series
 
 ![](readme_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+-----
+
+### Usage
+
+``` r
+library(ggplot2)
+
+ggplot(data=iris, aes(x=Sepal.Width, fill = Species))+
+  geom_histogram(binwidth=0.2, color="black") + 
+  xlab("Sepal Width") +  ylab("Frequency") + 
+  ggtitle("Histogram of Sepal Width") + theme_bw()+
+  
+  scale_fill_manual(values = soil_palette("rendoll",3))
+```
+
+![](readme_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+``` r
+ggplot(data=iris, aes(x=Sepal.Width, fill=Species)) + 
+  geom_density(stat="density", alpha=(0.5)) +
+  xlab("Sepal Width") +  ylab("Density") + 
+  ggtitle("Histogram & Density Curve of Sepal Width") + theme_bw()+
+  
+  scale_fill_manual(values = soil_palette("paleustalf",3))
+```
+
+![](readme_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
