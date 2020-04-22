@@ -1,17 +1,19 @@
-soilpalettes
-================
+
+<img style="float: left;" img src="images/0-logo.png" style="width:120px;height:120px;">
+
+# soilpalettes
 
 This package contains color palettes for RStudio, inspired by soil
-profiles.  
-Palettes are colorblind-friendly and were created using
+profiles. Palettes are colorblind-friendly and were created using
 [Chroma.js](https://gka.github.io/palettes/) and
 [Coolors](https://coolors.co).  
 Code structure was modelled after the
 [`PNWColors`](https://github.com/jakelawlor/PNWColors) and
 [`wesanderson`](https://github.com/karthik/wesanderson) packages.
 
-Source images and color hex values can be found
-[here](https://github.com/kaizadp/soilpalettes/blob/master/images.md).
+Source images and color hex values can be found in the
+[`images.md`](https://github.com/kaizadp/soilpalettes/blob/master/images.md)
+file in the root directory.
 
 -----
 
@@ -24,9 +26,11 @@ devtools::install_github("kaizadp/soilpalettes")
 
 -----
 
+-----
+
 ### Palettes
 
-#### soil orders and suborders
+#### soil orders, suborders, and great groups
 
 ![](readme_files/figure-gfm/orders-1.png)<!-- -->![](readme_files/figure-gfm/orders-2.png)<!-- -->![](readme_files/figure-gfm/orders-3.png)<!-- -->![](readme_files/figure-gfm/orders-4.png)<!-- -->
 
