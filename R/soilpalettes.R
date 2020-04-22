@@ -11,13 +11,11 @@
 #'
 #' @export
 soil_palettes <- list(
-  durorthod = rbind(c('#000000', '#aa7537', '#d0a05f', '#f0eee5', '#682e19', '#d16419', '#f09f3f'),c(1,4,7,5,2,6,3)),
-  rendoll = rbind(c('#4A7729', '#020202', '#54411d', '#dfd29c', '#dbe1d2', '#e2be58', '#d3b262'),c(4,1,6,2,5,3,7)),
-  paleustalf = rbind(c('#7e4724', '#b9885a', '#8c2f0e', '#b43e15', '#ed8741', '#e7cb9f', '#dbe7db'),c(4,1,6,2,5,3,7)),
-  natrudoll = rbind(c('#724a1e', '#b49661', '#e9c5a0', '#5b3b1d', '#ba7f40', '#a36f0b', '#e2a729'),c(4,1,6,2,5,3,7)),
-  alaquod2 = rbind(c('#70707a', '#31343a', '#6b3c2d', '#966f5d', '#c4a486', '#c0743a', '#927245'),c(4,1,6,2,5,3,7)),
-  alaquod = rbind(c('#e4b282', '#af692d', '#5d2d26', '#3f3f4a', '#cbd1dc'),c(1,3,4,2,5))
-  
+  alaquod = rbind(c('#321614', '#C8CED8', '#6E251E', '#B26535', '#E9B391'),c(3,4,1,2,5)),
+  bangor = rbind(c('#564735', '#855A30', '#BA6C00', '#D4C394', '#A48D2F'),c(3,4,1,2,5)),
+  durorthod = rbind(c('#2C0C00', '#803C15', '#C6782C', '#FFA91D', '#FFF3AD'),c(3,4,1,2,5)),
+  paleustalf = rbind(c('#282828', '#69261F', '#BB1F0B', '#E58D43', '#EEC47B'),c(3,4,1,2,5)),
+  rendoll = rbind(c('#363636', '#78351D', '#B27529', '#FFD300', '#DCDCDA'),c(3,4,1,2,5))
 )
 
 
