@@ -1,6 +1,5 @@
 soilpalettes
 ================
-Kaizad Patel
 
 These are the soil profiles that inspired the color palettes. Color
 palettes were created using [Chroma.js](https://gka.github.io/palettes/)
