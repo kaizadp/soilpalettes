@@ -91,7 +91,7 @@ print.palette <- function(x, ...) {
   image(1:n, 1, as.matrix(1:n), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 
-  text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 3, family = "sans")
+  text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 1, family = "sans")
 }
 
 
