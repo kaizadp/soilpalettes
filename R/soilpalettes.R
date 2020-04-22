@@ -92,7 +92,7 @@ print.palette <- function(x, ...) {
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
   
   rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
-  text(median(1:n), 1, labels = attr(x,"name"), cex = 1.5, family = "sans")
+  text(median(1:n), 1, labels = attr(x,"name"), cex = 1, family = "sans")
 }
 
 
