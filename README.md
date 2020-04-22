@@ -7,7 +7,8 @@ Palettes are colorblind-friendly and were created using
 [Chroma.js](https://gka.github.io/palettes/) and
 [Coolors](https://coolors.co).
 
-Source images and color hex values can be found here.
+Source images and color hex values can be found
+[here](https://github.com/kaizadp/soilpalettes/blob/master/images.md).
 
 -----
 
@@ -24,11 +25,11 @@ devtools::install_github("kaizadp/soilpalettes")
 
 #### soil orders and suborders
 
-![](readme_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->![](readme_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->![](readme_files/figure-gfm/unnamed-chunk-3-3.png)<!-- -->![](readme_files/figure-gfm/unnamed-chunk-3-4.png)<!-- -->
+![](readme_files/figure-gfm/orders-1.png)<!-- -->![](readme_files/figure-gfm/orders-2.png)<!-- -->![](readme_files/figure-gfm/orders-3.png)<!-- -->![](readme_files/figure-gfm/orders-4.png)<!-- -->
 
 #### soil series
 
-![](readme_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](readme_files/figure-gfm/series-1.png)<!-- -->
 
 -----
 
@@ -45,15 +46,15 @@ ggplot(data=iris, aes(x=Sepal.Width, fill = Species))+
   scale_fill_manual(values = soil_palette("rendoll",3))
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](readme_files/figure-gfm/usage1-1.png)<!-- -->
 
 ``` r
 ggplot(data=iris, aes(x=Sepal.Width, fill=Species)) + 
-  geom_density(stat="density", alpha=(0.5)) +
+  geom_density(stat="density", alpha=(0.6)) +
   xlab("Sepal Width") +  ylab("Density") + 
   ggtitle("Histogram & Density Curve of Sepal Width") + theme_bw()+
   
   scale_fill_manual(values = soil_palette("paleustalf",3))
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](readme_files/figure-gfm/usage2-1.png)<!-- -->

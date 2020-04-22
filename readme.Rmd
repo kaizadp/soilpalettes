@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 This package contains color palettes for RStudio, inspired by soil profiles.  
 Palettes are colorblind-friendly and were created using [Chroma.js](https://gka.github.io/palettes/) and [Coolors](https://coolors.co).  
 
-Source images and color hex values can be found here. 
+Source images and color hex values can be found [here](https://github.com/kaizadp/soilpalettes/blob/master/images.md). 
 
 ----
 
@@ -34,7 +34,7 @@ devtools::install_github("kaizadp/soilpalettes")
 
 ### Palettes
 #### soil orders and suborders
-```{r echo = FALSE}
+```{r orders, echo = FALSE}
 library(soilpalettes)
 
 soil_palette(name="alaquod")
@@ -45,7 +45,7 @@ soil_palette(name="rendoll")
 ```
 
 #### soil series
-```{r echo = FALSE}
+```{r series, echo = FALSE}
 soil_palette(name="bangor")
 ```
 
@@ -53,7 +53,7 @@ soil_palette(name="bangor")
 
 ### Usage
 
-```{r, fig.height=5, echo=TRUE}
+```{r usage1, fig.height=5, echo=TRUE}
 library(ggplot2)
 
 ggplot(data=iris, aes(x=Sepal.Width, fill = Species))+
@@ -64,7 +64,7 @@ ggplot(data=iris, aes(x=Sepal.Width, fill = Species))+
   scale_fill_manual(values = soil_palette("rendoll",3))
 ```
 
-```{r, fig.height=5, echo=TRUE}
+```{r usage2, fig.height=5, echo=TRUE}
 ggplot(data=iris, aes(x=Sepal.Width, fill=Species)) + 
   geom_density(stat="density", alpha=(0.6)) +
   xlab("Sepal Width") +  ylab("Density") + 
