@@ -1,5 +1,5 @@
 
-<img style="float: left;" img src="images/0-logo.png" style="width:120px;height:120px;">
+<img src="images/0-logo.png" style="width:120px;height:120px;">
 
 # soilpalettes
 
