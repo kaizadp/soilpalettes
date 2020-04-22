@@ -2,9 +2,9 @@ soilpalettes
 ================
 Kaizad Patel
 
------
-
-### Palettes
+These are the soil profiles that inspired the color palettes. Color
+palettes were created using [Chroma.js](https://gka.github.io/palettes/)
+and [Coolors](https://coolors.co).
 
 -----
 
@@ -16,11 +16,17 @@ CALS](https://www.uidaho.edu/cals/soil-orders)*
 **durorthod** Typic Durorthod  
 *source [University of Idaho -
 CALS](https://www.uidaho.edu/cals/soil-orders)*  
-![durorthod](images/1200x900-typic-durorthod.jpg)
-![alaquod2](images/durorth2.png)
+![durorthod](images/durorthod-palette.png)
 
 **paleustalf** Udic Paleustalf  
 *source [University of Idaho -
 CALS](https://www.uidaho.edu/cals/soil-orders)*  
-![paleustalf](images/1200x900-udic-paleustalf.jpg)
-![alaquod2](images/ustalf.png)
+![paleustalf](images/paleustalf-palette.png)
+
+**rendoll**  
+*source [University of Idaho -
+CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![rendoll](images/rendoll-palette.png)
+
+**bangor** Bangor series (Typic Haplorthods, Maine USA)  
+![bangor](images/bangor-palette.png)

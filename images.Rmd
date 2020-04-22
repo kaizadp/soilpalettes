@@ -4,37 +4,11 @@ author: "Kaizad Patel"
 output: github_document
 ---
 
-```{r echo=FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  echo=FALSE,
-  message = FALSE,
-  warning = FALSE,
-  error = FALSE,
-  comment = "#>"
-)
-```
-
-----
-
-### Palettes
-
-```{r}
-# use this script to edit images for readme
-library(soilpalettes)
-library(imager)
-
-
-alaquod = load.image("images/hex/alaquod-hex.png") %>% 
-  imsub(x %inr% c(0,1600),y %inr% c(850,1100)) %>%
-  imrotate(90) %>% save.image("images/hex/alaquod.png")
-#png(filename = "images/hex/alaquod.png")
-```
-
+These are the soil profiles that inspired the color palettes.
+Color palettes were created using [Chroma.js](https://gka.github.io/palettes/) and [Coolors](https://coolors.co).  
 
 
 ----
-
 
 **alaquod** Aeric Alaquod, NC.   
 *source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
@@ -42,13 +16,18 @@ alaquod = load.image("images/hex/alaquod-hex.png") %>%
 
 **durorthod** Typic Durorthod  
 *source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
-![durorthod](images/1200x900-typic-durorthod.jpg) ![alaquod2](images/durorth2.png) 
+![durorthod](images/durorthod-palette.png) 
 
 **paleustalf** Udic Paleustalf  
 *source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
-![paleustalf](images/1200x900-udic-paleustalf.jpg) ![alaquod2](images/ustalf.png) 
+![paleustalf](images/paleustalf-palette.png) 
 
+**rendoll**   
+*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![rendoll](images/rendoll-palette.png) 
 
+**bangor** Bangor series (Typic Haplorthods, Maine USA)   
+![bangor](images/bangor-palette.png) 
 
 
 
