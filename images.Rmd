@@ -1,0 +1,54 @@
+---
+title: "soilpalettes"
+author: "Kaizad Patel"  
+output: github_document
+---
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  echo=FALSE,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE,
+  comment = "#>"
+)
+```
+
+----
+
+### Palettes
+
+```{r}
+# use this script to edit images for readme
+library(soilpalettes)
+library(imager)
+
+
+alaquod = load.image("images/hex/alaquod-hex.png") %>% 
+  imsub(x %inr% c(0,1600),y %inr% c(850,1100)) %>%
+  imrotate(90) %>% save.image("images/hex/alaquod.png")
+#png(filename = "images/hex/alaquod.png")
+```
+
+
+
+----
+
+
+**alaquod** Aeric Alaquod, NC.   
+*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![alaquod](images/alaquod-palette.png) 
+
+**durorthod** Typic Durorthod  
+*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![durorthod](images/1200x900-typic-durorthod.jpg) ![alaquod2](images/durorth2.png) 
+
+**paleustalf** Udic Paleustalf  
+*source [University of Idaho - CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![paleustalf](images/1200x900-udic-paleustalf.jpg) ![alaquod2](images/ustalf.png) 
+
+
+
+
+
