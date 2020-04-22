@@ -14,7 +14,7 @@ soil_palettes <- list(
   alaquod = rbind(c('#321614', '#C8CED8', '#6E251E', '#B26535', '#E9B391'),c(3,4,1,2,5)),
   bangor = rbind(c('#564735', '#855A30', '#BA6C00', '#D4C394', '#A48D2F'),c(3,4,1,2,5)),
   durorthod = rbind(c('#2C0C00', '#803C15', '#C6782C', '#FFA91D', '#FFF3AD'),c(3,4,1,2,5)),
-  paleustalf = rbind(c('#282828', '#69261F', '#BB1F0B', '#E58D43', '#EEC47B'),c(3,4,1,2,5)),
+  paleustalf = rbind(c('#282828', '#69261F', '#BB1F0B', '#E58D43', '#EEC47B'),c(2,4,1,5,3)),
   rendoll = rbind(c('#363636', '#78351D', '#B27529', '#FFD300', '#DCDCDA'),c(3,4,1,2,5))
 )
 
