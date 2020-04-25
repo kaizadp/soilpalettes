@@ -48,7 +48,9 @@ library(soilpalettes)
 
 soil_palette(name="alaquod")
 soil_palette(name="durorthod")
+soil_palette(name="eutrostox")
 soil_palette(name="paleustalf")
+soil_palette(name="podzol")
 soil_palette(name="rendoll")
 
 ```
@@ -56,6 +58,12 @@ soil_palette(name="rendoll")
 #### soil series
 ```{r series, echo = FALSE}
 soil_palette(name="bangor")
+```
+
+#### miscellaneous
+
+```{r misc, echo = FALSE}
+soil_palette(name="redox")
 ```
 
 ----
