@@ -15,7 +15,11 @@ soil_palettes <- list(
   bangor = rbind(c('#564735', '#855A30', '#BA6C00', '#D4C394', '#A48D2F'),c(3,4,1,2,5)),
   durorthod = rbind(c('#2C0C00', '#803C15', '#C6782C', '#FFA91D', '#FFF3AD'),c(3,4,1,2,5)),
   paleustalf = rbind(c('#282828', '#69261F', '#BB1F0B', '#E58D43', '#EEC47B'),c(2,4,1,5,3)),
-  rendoll = rbind(c('#363636', '#78351D', '#B27529', '#FFD300', '#DCDCDA'),c(3,4,1,2,5))
+  rendoll = rbind(c('#363636', '#78351D', '#B27529', '#FFD300', '#DCDCDA'),c(3,4,1,2,5)),
+  
+  redox = rbind(c('#BB281E', '#D56936', '#87D7EB', '#42B8D7', '#16879C'),c(1,3,5,2,4)),
+  podzol = rbind(c('#351821', '#9F2519', '#F65620', '#FFC87A', '#FBF2B5'),c(3,1,4,2,5)),
+  eutrostox = rbind(c('#220901', '#621708', '#941B0C', '#BC3908', '#F6AA1C'),c(4,1,5,3,2))
 )
 
 
