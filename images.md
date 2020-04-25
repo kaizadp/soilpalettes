@@ -17,6 +17,11 @@ CALS](https://www.uidaho.edu/cals/soil-orders)*
 CALS](https://www.uidaho.edu/cals/soil-orders)*  
 ![durorthod](images/durorthod-palette.png)
 
+**natrudoll**  
+*source [University of Idaho -
+CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![natrudoll](images/natrudoll-palette.png)
+
 **paleustalf** Udic Paleustalf  
 *source [University of Idaho -
 CALS](https://www.uidaho.edu/cals/soil-orders)*  
@@ -27,5 +32,15 @@ CALS](https://www.uidaho.edu/cals/soil-orders)*
 CALS](https://www.uidaho.edu/cals/soil-orders)*  
 ![rendoll](images/rendoll-palette.png)
 
+**vitrixerand**  
+*source [University of Idaho -
+CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![vitrixerand](images/vitrixerand-palette.png)
+
 **bangor** Bangor series (Typic Haplorthods, Maine USA)  
 ![bangor](images/bangor-palette.png)
+
+**pywell** Pywell series (Typic Haplosaprist, Idaho USA)  
+*source [University of Idaho -
+CALS](https://www.uidaho.edu/cals/soil-orders)*  
+![pywell](images/pywell-palette.png)

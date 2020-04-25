@@ -32,11 +32,11 @@ devtools::install_github("kaizadp/soilpalettes")
 
 #### soil orders, suborders, and great groups
 
-![](readme_files/figure-gfm/orders-1.png)<!-- -->![](readme_files/figure-gfm/orders-2.png)<!-- -->![](readme_files/figure-gfm/orders-3.png)<!-- -->![](readme_files/figure-gfm/orders-4.png)<!-- -->![](readme_files/figure-gfm/orders-5.png)<!-- -->![](readme_files/figure-gfm/orders-6.png)<!-- -->
+![](readme_files/figure-gfm/orders-1.png)<!-- -->![](readme_files/figure-gfm/orders-2.png)<!-- -->![](readme_files/figure-gfm/orders-3.png)<!-- -->![](readme_files/figure-gfm/orders-4.png)<!-- -->![](readme_files/figure-gfm/orders-5.png)<!-- -->![](readme_files/figure-gfm/orders-6.png)<!-- -->![](readme_files/figure-gfm/orders-7.png)<!-- -->![](readme_files/figure-gfm/orders-8.png)<!-- -->
 
 #### soil series
 
-![](readme_files/figure-gfm/series-1.png)<!-- -->
+![](readme_files/figure-gfm/series-1.png)<!-- -->![](readme_files/figure-gfm/series-2.png)<!-- -->
 
 #### miscellaneous
 

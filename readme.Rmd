@@ -49,15 +49,19 @@ library(soilpalettes)
 soil_palette(name="alaquod")
 soil_palette(name="durorthod")
 soil_palette(name="eutrostox")
+soil_palette(name="natrudoll")
 soil_palette(name="paleustalf")
 soil_palette(name="podzol")
 soil_palette(name="rendoll")
+soil_palette(name="vitrixerand")
+
 
 ```
 
 #### soil series
 ```{r series, echo = FALSE}
 soil_palette(name="bangor")
+soil_palette(name="pywell")
 ```
 
 #### miscellaneous
