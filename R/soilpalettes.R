@@ -23,7 +23,11 @@ soil_palettes <- list(
   pywell = rbind(c('#050308', '#0A0914', '#100E15', '#0B090D', '#0D0B16'),c(4,1,5,3,2)),
   
   natrudoll = rbind(c('#301311', '#824D28', '#C38D18', '#FFCD62', '#FFEBA8'),c(3,1,5,2,4)),
-  vitrixerand = rbind(c('#281B27', '#723F27', '#9B6044', '#B5804C', '#FACD9A'),c(1,3,5,2,4))
+  vitrixerand = rbind(c('#281B27', '#723F27', '#9B6044', '#B5804C', '#FACD9A'),c(1,3,5,2,4)),
+  
+  crait = rbind(c('#F4F4F4', '#E9BBB8', '#DF837D', '#D44A41', '#C91105'),c(3,2,4,5,1)),
+  gley = rbind(c('#BFBFBF', '#A1B7BF', '#80AEBE', '#58A6BE', '#009DBD'),c(1,3,5,2,4))
+  
 )
 
 
