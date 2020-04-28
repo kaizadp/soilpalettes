@@ -38,9 +38,9 @@ devtools::install_github("kaizadp/soilpalettes")
 
 ![](readme_files/figure-gfm/series-1.png)<!-- -->![](readme_files/figure-gfm/series-2.png)<!-- -->
 
-#### miscellaneous
+#### others
 
-![](readme_files/figure-gfm/misc-1.png)<!-- -->
+![](readme_files/figure-gfm/misc-1.png)<!-- -->![](readme_files/figure-gfm/misc-2.png)<!-- -->![](readme_files/figure-gfm/misc-3.png)<!-- -->
 
 -----
 

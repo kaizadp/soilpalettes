@@ -64,10 +64,13 @@ soil_palette(name="bangor")
 soil_palette(name="pywell")
 ```
 
-#### miscellaneous
+#### others
 
 ```{r misc, echo = FALSE}
 soil_palette(name="redox")
+soil_palette(name="crait")
+soil_palette(name="gley")
+
 ```
 
 ----
