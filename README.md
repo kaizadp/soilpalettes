@@ -2,6 +2,8 @@
 <img align="left" src="images/0-logo.png">
 
 # soilpalettes
+[![DOI](https://zenodo.org/badge/257353182.svg)](https://zenodo.org/badge/latestdoi/257353182)
+
 
 This package contains color palettes for RStudio, inspired by soil
 profiles. Palettes are colorblind-friendly and were created using
