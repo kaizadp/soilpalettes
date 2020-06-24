@@ -2,8 +2,8 @@
 <img align="left" src="images/0-logo.png">
 
 # soilpalettes
-[![DOI](https://zenodo.org/badge/257353182.svg)](https://zenodo.org/badge/latestdoi/257353182)
 
+[![DOI](https://zenodo.org/badge/257353182.svg)](https://zenodo.org/badge/latestdoi/257353182)
 
 This package contains color palettes for RStudio, inspired by soil
 profiles. Palettes are colorblind-friendly and were created using
@@ -71,3 +71,32 @@ ggplot(data=iris, aes(x=Sepal.Width, fill=Species)) +
 ```
 
 ![](readme_files/figure-gfm/usage2-1.png)<!-- -->
+
+``` r
+library(palmerpenguins)
+
+ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species))+
+  geom_point()+ 
+  labs(x = "Bill length (mm)", y = "Bill depth (mm)",
+       title = "Scatterplot of penguin bill dimensions",
+       subtitle = "data = Palmer Penguins")+
+  theme_bw()+
+  
+  scale_color_manual(values = soil_palette("paleustalf", 3)) 
+```
+
+![](readme_files/figure-gfm/usage3-1.png)<!-- -->
+
+``` r
+ggplot(penguins, aes(y = body_mass_g, x = species, fill = species))+
+  geom_violin(alpha = 0.5)+ 
+  geom_dotplot(binaxis = "y", color = "black", fill="black", dotsize=0.3, stackdir = "center", binpositions="all")+
+  labs(y = "Body mass (g)", x = "",
+       title = "Violin plot of penguin body mass",
+       subtitle = "data = Palmer Penguins")+
+  theme_bw()+
+  
+  scale_fill_manual(values = soil_palette("podzol", 3)) 
+```
+
+![](readme_files/figure-gfm/usage4-1.png)<!-- -->
