@@ -47,8 +47,9 @@ soil_palettes <- list(
 #' or if more are desired, used as a gradient. If omitted, n = length of palette.
 #' @param type Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
 #' a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.
+#' @param direction (TODO)
 #'
-#' @return
+#' @return TODO
 #' @export
 #'
 #' @examples
@@ -98,11 +99,12 @@ soil_palette <- function(name, n, type = c("discrete", "continuous"), direction 
 
 #' Palette Print Function
 #'
-#' @param x something
-#' @param ... something
-#' @importFrom graphics image par text
+#' @param x TODO
+#' @param ... TODO
+#' @importFrom graphics image par text rect
 #' @importFrom stats median
-#' @return
+#' @importFrom grDevices rgb
+#' @return TODO
 #' @export
 print.palette <- function(x, ...) {
   n <- length(x)

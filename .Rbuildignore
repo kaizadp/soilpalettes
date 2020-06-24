@@ -3,5 +3,8 @@
 
 images/
 readme_files/
-readme.Rmd
+
+.Rmd
+.md
+
 ^\.github$

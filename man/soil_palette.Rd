@@ -4,7 +4,7 @@
 \alias{soil_palette}
 \title{Soil Palette Generator.}
 \usage{
-soil_palette(name, n, type = c("discrete", "continuous"))
+soil_palette(name, n, type = c("discrete", "continuous"), direction = 1)
 }
 \arguments{
 \item{name}{Name of the color palette. Options are \code{durorthod}, \code{rendoll}, \code{paleustalf},
@@ -15,9 +15,11 @@ or if more are desired, used as a gradient. If omitted, n = length of palette.}
 
 \item{type}{Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
 a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.}
+
+\item{direction}{(TODO)}
 }
 \value{
-
+TODO
 }
 \description{
 This function builds palettes based on soil profiles.

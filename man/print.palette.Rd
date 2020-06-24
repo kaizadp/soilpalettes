@@ -7,12 +7,12 @@
 \method{print}{palette}(x, ...)
 }
 \arguments{
-\item{x}{something}
+\item{x}{TODO}
 
-\item{...}{something}
+\item{...}{TODO}
 }
 \value{
-
+TODO
 }
 \description{
 Palette Print Function
