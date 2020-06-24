@@ -2,7 +2,7 @@ Package: soilpalettes
 Type: Package
 Title: A Soil Color Palette Package
 Version: 0.1.0
-Author: Kaizad F. Patel
+Author: Kaizad F. Patel & Ben Bond-Lamberty
 Maintainer: Kaizad F. Patel <kaizad.patel@pnnl.gov>
 Description: Colorblind-friendly color palettes for R inspired by soil profiles.
 License: MIT + file LICENSE
