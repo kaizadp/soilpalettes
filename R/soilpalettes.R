@@ -7,7 +7,7 @@
 #' Complete list of palettes
 #'
 #' Use \code{names(soil_palettes)} to view list of palette names.
-#' Currently:  "durorthod" "rendoll"  "paleustalf"      "natrudoll"   "alaquod2"     "alaquod" 
+#' Currently:  "alaquod" "durorthod"  "eutrostox" "natrudoll" "paleustalf" "podzol" "rendoll" "vitrizerand" "bangor" "pywell" "crait" "redox" "redox2" "gley"        
 #'
 #' @export
 soil_palettes <- list(
@@ -28,8 +28,9 @@ soil_palettes <- list(
   vitrixerand = rbind(c('#281B27', '#723F27', '#9B6044', '#B5804C', '#FACD9A'),c(1,3,5,2,4)),
   
   crait = rbind(c('#F4F4F4', '#E9BBB8', '#DF837D', '#D44A41', '#C91105'),c(3,2,4,5,1)),
-  gley = rbind(c('#BFBFBF', '#A1B7BF', '#80AEBE', '#58A6BE', '#009DBD'),c(1,3,5,2,4))
-  
+  gley = rbind(c('#BFBFBF', '#A1B7BF', '#80AEBE', '#58A6BE', '#009DBD'),c(1,3,5,2,4)),
+  redox2 = rbind(c('#2E5894', '#FFE733', '#FFB200', '#EC5800', '#96001B'),c(1,4,3,5,2))
+
 )
 
 
