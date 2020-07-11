@@ -1,35 +1,29 @@
 
-<img align="left" src="images/0-logo.png">
+<img align="left" height = "300" width = "300" src="images/0-logo.png">
 
 # soilpalettes
 
 <!-- badges: start -->
+
 [![DOI](https://zenodo.org/badge/257353182.svg)](https://zenodo.org/badge/latestdoi/257353182)
-  [![R build status](https://github.com/kaizadp/soilpalettes/workflows/R-CMD-check/badge.svg)](https://github.com/kaizadp/soilpalettes/actions)
-  <!-- badges: end -->
-  
+[![R build
+status](https://github.com/kaizadp/soilpalettes/workflows/R-CMD-check/badge.svg)](https://github.com/kaizadp/soilpalettes/actions)
+<!-- badges: end -->
+
 This package contains color palettes for RStudio, inspired by soil
 profiles. Palettes are colorblind-friendly and were created using
 [Chroma.js](https://gka.github.io/palettes/) and
 [Coolors](https://coolors.co).  
-Code structure was modelled after the
-[`PNWColors`](https://github.com/jakelawlor/PNWColors) and
-[`wesanderson`](https://github.com/karthik/wesanderson) packages.
-
 Source images and color hex values can be found in the
 [`images.md`](https://github.com/kaizadp/soilpalettes/blob/master/images.md)
 file in the root directory.
 
------
-
-### install package
+#### install package
 
 ``` r
 # install.packages("devtools") 
 devtools::install_github("kaizadp/soilpalettes")
 ```
-
------
 
 -----
 
@@ -45,7 +39,7 @@ devtools::install_github("kaizadp/soilpalettes")
 
 #### others
 
-![](readme_files/figure-gfm/misc-1.png)<!-- -->![](readme_files/figure-gfm/misc-2.png)<!-- -->![](readme_files/figure-gfm/misc-3.png)<!-- -->
+![](readme_files/figure-gfm/misc-1.png)<!-- -->![](readme_files/figure-gfm/misc-2.png)<!-- -->![](readme_files/figure-gfm/misc-3.png)<!-- -->![](readme_files/figure-gfm/misc-4.png)<!-- -->
 
 -----
 
@@ -103,3 +97,24 @@ ggplot(penguins, aes(y = body_mass_g, x = species, fill = species))+
 ```
 
 ![](readme_files/figure-gfm/usage4-1.png)<!-- -->
+
+``` r
+ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = bill_length_mm))+
+  geom_point()+ 
+  labs(x = "Bill length (mm)", y = "Bill depth (mm)",
+       title = "Scatterplot of penguin bill dimensions",
+       subtitle = "data = Palmer Penguins")+
+  theme_bw()+
+  
+  scale_color_gradientn(colors = rev(soil_palette("redox2",5))) 
+```
+
+![](readme_files/figure-gfm/usage5-1.png)<!-- -->
+
+-----
+
+Code structure was modelled after the
+[`PNWColors`](https://github.com/jakelawlor/PNWColors) and
+[`wesanderson`](https://github.com/karthik/wesanderson) packages.
+Contribute soil palettes in the
+[issues](https://github.com/kaizadp/soilpalettes/issues/6)
