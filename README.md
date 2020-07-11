@@ -3,8 +3,11 @@
 
 # soilpalettes
 
+<!-- badges: start -->
 [![DOI](https://zenodo.org/badge/257353182.svg)](https://zenodo.org/badge/latestdoi/257353182)
-
+  [![R build status](https://github.com/kaizadp/soilpalettes/workflows/R-CMD-check/badge.svg)](https://github.com/kaizadp/soilpalettes/actions)
+  <!-- badges: end -->
+  
 This package contains color palettes for RStudio, inspired by soil
 profiles. Palettes are colorblind-friendly and were created using
 [Chroma.js](https://gka.github.io/palettes/) and
