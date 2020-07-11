@@ -27,10 +27,13 @@ knitr::opts_chunk$set(
 
 This package contains color palettes for RStudio, inspired by soil profiles.
 Palettes are colorblind-friendly and were created using [Chroma.js](https://gka.github.io/palettes/) and [Coolors](https://coolors.co).  
+
+
 Source images and color hex values can be found in the  [`images.md`](https://github.com/kaizadp/soilpalettes/blob/master/images.md) file in the root directory. 
 
+---
 
-#### install package
+### install package
 
 ```{r echo = TRUE, message=FALSE,warning=FALSE}
 # install.packages("devtools") 
@@ -39,9 +42,9 @@ devtools::install_github("kaizadp/soilpalettes")
 
 ----
 
-
-
-### Palettes
+<details>
+  <summary>Palettes</summary>
+  
 #### soil orders, suborders, and great groups
 ```{r orders, echo = FALSE}
 library(soilpalettes)
@@ -76,8 +79,10 @@ soil_palette(name="gley",5)
 
 ----
 
-### Usage
+</details>
 
+<details>
+  <summary>Examples</summary>
 ```{r usage1, fig.height=4, fig.width=5, echo=TRUE}
 library(ggplot2)
 
@@ -134,9 +139,13 @@ ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = bill_length_
   
   scale_color_gradientn(colors = rev(soil_palette("redox2",5))) 
 ```
+</details>
 
 
----
+<details>
+  <summary>Acknowledgments and Contributions</summary>
+  
+Code structure was modelled after the [`PNWColors`](https://github.com/jakelawlor/PNWColors) and [`wesanderson`](https://github.com/karthik/wesanderson) packages.  
+Contribute soil palettes in the [issues](https://github.com/kaizadp/soilpalettes/issues/6).
 
-Code structure was modelled after the [`PNWColors`](https://github.com/jakelawlor/PNWColors) and [`wesanderson`](https://github.com/karthik/wesanderson) packages.
-Contribute soil palettes in the [issues](https://github.com/kaizadp/soilpalettes/issues/6)
+</summary>

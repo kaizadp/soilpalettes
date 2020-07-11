@@ -13,12 +13,15 @@ status](https://github.com/kaizadp/soilpalettes/workflows/R-CMD-check/badge.svg)
 This package contains color palettes for RStudio, inspired by soil
 profiles. Palettes are colorblind-friendly and were created using
 [Chroma.js](https://gka.github.io/palettes/) and
-[Coolors](https://coolors.co).  
+[Coolors](https://coolors.co).
+
 Source images and color hex values can be found in the
 [`images.md`](https://github.com/kaizadp/soilpalettes/blob/master/images.md)
 file in the root directory.
 
-#### install package
+-----
+
+### install package
 
 ``` r
 # install.packages("devtools") 
@@ -27,7 +30,9 @@ devtools::install_github("kaizadp/soilpalettes")
 
 -----
 
-### Palettes
+<details>
+
+<summary>Palettes</summary>
 
 #### soil orders, suborders, and great groups
 
@@ -43,7 +48,11 @@ devtools::install_github("kaizadp/soilpalettes")
 
 -----
 
-### Usage
+</details>
+
+<details>
+
+<summary>Examples</summary>
 
 ``` r
 library(ggplot2)
@@ -111,10 +120,16 @@ ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = bill_length_
 
 ![](readme_files/figure-gfm/usage5-1.png)<!-- -->
 
------
+</details>
+
+<details>
+
+<summary>Acknowledgments and Contributions</summary>
 
 Code structure was modelled after the
 [`PNWColors`](https://github.com/jakelawlor/PNWColors) and
-[`wesanderson`](https://github.com/karthik/wesanderson) packages.
+[`wesanderson`](https://github.com/karthik/wesanderson) packages.  
 Contribute soil palettes in the
-[issues](https://github.com/kaizadp/soilpalettes/issues/6)
+[issues](https://github.com/kaizadp/soilpalettes/issues/6).
+
+</summary>
