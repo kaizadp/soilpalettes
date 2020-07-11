@@ -70,6 +70,7 @@ soil_palette(name="pywell")
 
 ```{r misc, echo = FALSE}
 soil_palette(name="redox")
+soil_palette(name="redox2")
 soil_palette(name="crait")
 soil_palette(name="gley")
 
