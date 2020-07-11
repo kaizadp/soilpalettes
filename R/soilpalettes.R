@@ -7,7 +7,6 @@
 #' Complete list of palettes
 #'
 #' Use \code{names(soil_palettes)} to view list of palette names.
-<<<<<<< HEAD
 #' Currently:  "alaquod" "durorthod"  "eutrostox" "natrudoll" "paleustalf" "podzol" "rendoll" "vitrizerand" "bangor" "pywell" "crait" "redox" "redox2" "gley"        
 #'
 #' @export
@@ -31,32 +30,8 @@ soil_palettes <- list(
   crait = rbind(c('#F4F4F4', '#E9BBB8', '#DF837D', '#D44A41', '#C91105'),c(3,2,4,5,1)),
   gley = rbind(c('#BFBFBF', '#A1B7BF', '#80AEBE', '#58A6BE', '#009DBD'),c(1,3,5,2,4)),
   redox2 = rbind(c('#2E5894', '#FFE733', '#FFB200', '#EC5800', '#96001B'),c(1,4,3,5,2))
-
-=======
-#' Currently:  "durorthod" "rendoll"  "paleustalf"      "natrudoll"   "alaquod2"     "alaquod"
-#'
-#' @export
-soil_palettes <- list(
-  alaquod = rbind(c("#321614", "#C8CED8", "#6E251E", "#B26535", "#E9B391"), c(3, 4, 1, 2, 5)),
-  bangor = rbind(c("#564735", "#855A30", "#BA6C00", "#D4C394", "#A48D2F"), c(3, 4, 1, 2, 5)),
-  durorthod = rbind(c("#2C0C00", "#803C15", "#C6782C", "#FFA91D", "#FFF3AD"), c(3, 4, 1, 2, 5)),
-  paleustalf = rbind(c("#282828", "#69261F", "#BB1F0B", "#E58D43", "#EEC47B"), c(2, 4, 1, 5, 3)),
-  #  rendoll = rbind(c('#363636', '#78351D', '#B27529', '#FFD300', '#DCDCDA'),c(3,4,1,2,5)),
-  rendoll = rbind(c("#363636", "#78351D", "#B27529", "#FFD300", "#DCDCDA"), c(3, 1, 5, 2, 4)),
-
-  #  redox = rbind(c('#BB281E', '#D56936', '#87D7EB', '#42B8D7', '#16879C'),c(1,3,5,2,4)),
-  redox = rbind(c("#BB281E", "#D56936", "#87D7EB", "#42B8D7", "#16879C"), c(1, 4, 3, 5, 2)),
-  podzol = rbind(c("#351821", "#9F2519", "#F65620", "#FFC87A", "#FBF2B5"), c(3, 1, 4, 2, 5)),
-  eutrostox = rbind(c("#220901", "#621708", "#941B0C", "#BC3908", "#F6AA1C"), c(4, 1, 5, 3, 2)),
-  pywell = rbind(c("#050308", "#0A0914", "#100E15", "#0B090D", "#0D0B16"), c(4, 1, 5, 3, 2)),
-
-  natrudoll = rbind(c("#301311", "#824D28", "#C38D18", "#FFCD62", "#FFEBA8"), c(3, 1, 5, 2, 4)),
-  vitrixerand = rbind(c("#281B27", "#723F27", "#9B6044", "#B5804C", "#FACD9A"), c(1, 3, 5, 2, 4)),
-
-  crait = rbind(c("#F4F4F4", "#E9BBB8", "#DF837D", "#D44A41", "#C91105"), c(3, 2, 4, 5, 1)),
-  gley = rbind(c("#BFBFBF", "#A1B7BF", "#80AEBE", "#58A6BE", "#009DBD"), c(1, 3, 5, 2, 4))
->>>>>>> 86a6528212984bd6b691d6be31db86b958bb2c1c
 )
+
 
 
 # 2. Palette builder function
